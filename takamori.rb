@@ -4,6 +4,6 @@ while recent.join != 'たかもりあいこ' do
   char = chars.sample
   recent << char
   print char
-	recent.shift if recent.size > 7
+  recent.shift if recent.size > 7
 end
 puts ''
